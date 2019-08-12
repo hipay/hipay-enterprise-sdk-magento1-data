@@ -1,0 +1,25 @@
+<config>
+    <modules>
+        <Allopass_HipayData>
+            <version>1.0.0</version>
+        </Allopass_HipayData>
+    </modules>
+    <global>
+        <models>
+            <hipayData>
+                <class>Allopass_HipayData_Model</class>
+            </hipayData>
+        </models>
+        <events>
+            <hipay_order_before_request>
+                <observers>
+                    <hipayData>
+                        <type>singleton</type>
+                        <class>hipayData/observer</class>
+                        <method>afterMapRequest</method>
+                    </hipayData>
+                </observers>
+            </hipay_order_before_request>
+        </events>
+    </global>
+</config>

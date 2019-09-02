@@ -15,12 +15,11 @@ Read the **[project documentation][doc-home]** for comprehensive information abo
 - [Contributing guidelines][project-contributing] — To contribute to our source code
 
 
-[doc-home]: https://developer.hipay.com/doc/hipay-enterprise-sdk-prestashop/
+[doc-home]: https://developer.hipay.com/doc/hipay-enterprise-sdk-magento_1/
 
 [hipay-help]: http://help.hipay.com
 
 [main-module]: https://github.com/hipay/hipay-fullservice-sdk-magento1/
-[project-issues]: https://github.com/hipay/hipay-fullservice-sdk-magento2-data/issues
+[project-issues]: https://github.com/hipay/hipay-enterprise-sdk-magento1-data/issues
 [project-license]: LICENSE.md
 [project-changelog]: CHANGELOG.md
-[project-contributing]: #

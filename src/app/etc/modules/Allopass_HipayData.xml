@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Allopass_HipayData>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Allopass_Hipay/>
+            </depends>
+        </Allopass_HipayData>
+    </modules>
+</config>
+

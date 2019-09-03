@@ -1,0 +1,23 @@
+{
+  "name": "hipay/hipay-fullservice-sdk-magento1-data",
+  "description": "The HiPay Fullservice Data module for Magento 1 is a PHP module which allows you to  to add your own data to the DSP2 security requests that are made by the HiPay Fullservice module for Magento 1",
+  "version": "1.0.0",
+  "license": [
+    "Apache-2.0"
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/sirateck/MagentoTarToConnect.git"
+    }
+  ],
+  "require": {
+    "pulsestorm/magento-tar-to-connect":"dev-master"
+  },
+  "scripts": {
+    "package":[
+      "tar cf dist/Allopass_Hipay_Data.tar -C src .",
+      "vendor/pulsestorm/magento-tar-to-connect/magento-tar-to-connect.phar config.php"
+    ]
+  }
+}

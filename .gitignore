@@ -8,7 +8,6 @@ vendor
 package/*
 *.lock
 *.env
-dist
 .idea
 web
 data
